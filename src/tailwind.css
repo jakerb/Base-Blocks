@@ -1,0 +1,12 @@
+/*
+ * Base Block
+ * @name        {name}
+ * @author      {author}
+ * @version     {version}
+ * @namespace   {slug}
+ * @category    {category}
+ * @description {description}   
+ */ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
