@@ -11,4 +11,4 @@
 | namespace | {slug} |
 | slug | {slug} |
 | category | {category} |
-| @description | {description} |
+| description | {description} |
