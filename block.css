@@ -1,5 +1,6 @@
 #{id} > .placeholder {
-  border
+  border: 5px dotted #eee;
+  padding: 15px;
 }
 
 #{id} > .placeholder > h2 {

@@ -9,7 +9,7 @@
      * @description {description}   
      */ 
 
-    if( class_exists('BaseBlock') ) {
+    if( ! class_exists('BaseBlock') ) {
         return false;
     }
 
