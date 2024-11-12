@@ -7,7 +7,7 @@
 | id | {id} |
 | name | {name} |
 | author | {author} |
-| @version | {version} |
+| version | {version} |
 | namespace | {slug} |
 | slug | {slug} |
 | category | {category} |

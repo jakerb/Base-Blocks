@@ -10,7 +10,7 @@
      */ 
 
     if( class_exists('BaseBlock') ) {
-        die('BaseBlock class not found!');
+        return false;
     }
 
     $block = new BaseBlock(array(
@@ -25,6 +25,8 @@
     ));
 
 ?>
-<section class="<?php echo $block->classes(); ?>" id="<?php echo $block->id(); ?>"  data-tracking="<?php echo $block->id(); ?>" data-block-slug="<?php echo $block->namespace(); ?>" data-block-version="<?php echo $blcok->version(); ?>">
-    <!-- Do something interesting -->
+<section class="<?php echo $block->classes(); ?>" id="<?php echo $block->id(); ?>"  data-tracking="<?php echo $block->id(); ?>" data-block-slug="<?php echo $block->namespace(); ?>" data-block-version="<?php echo $block->version(); ?>">
+    <div class="placeholder">
+        <h2>I'm a {name} Block!</h2>
+    </div>
 </section>
