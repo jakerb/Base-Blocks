@@ -9,10 +9,11 @@
     "description": "{description}",
     "acf": {
         "mode": "preview",
-        "renderTemplate": "template.php" 
+        "renderTemplate": "../template.php" 
     },
     "textdomain": "base-theme",
     "editorScript": "file:../block.js",
     "editorStyle": "file:../block.css",
-    "style": "file:../block.css"
+    "style": "file:../block.css",
+    "script": "file:../block.js"
   }
