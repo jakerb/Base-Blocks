@@ -3,6 +3,12 @@
   padding: 15px;
 }
 
+#{id} > .placeholder > h1 {
+  text-align: center;
+  margin: 0;
+  color: #000;
+}
+
 #{id} > .placeholder > h2 {
   text-align: center;
   margin: 0;
