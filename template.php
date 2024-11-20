@@ -44,9 +44,11 @@
     });
 
 ?>
+<?php if($block->can_render()) : ?>
 <section class="<?php echo $block->classes(); ?>" id="<?php echo $block->id(); ?>"  data-tracking="<?php echo $block->id(); ?>" data-block-slug="<?php echo $block->namespace(); ?>" data-block-version="<?php echo $block->version(); ?>">
     <div class="placeholder">
         <h1><?php echo $block->heading(); ?></h1>
         <h2>I'm a {name} Block!</h2>
     </div>
 </section>
+<?php endif; ?>
